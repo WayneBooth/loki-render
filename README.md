@@ -28,7 +28,7 @@ java -jar /path/to/jar/folder/LokiRender-071-1.jar /path/to/blender 192.168.17.4
 
 ### Prerequisites
 
-This repo is mainly tested with OpenJDK version 8, but could work on other versions as well. It is tested mainly on Linux, but should also work on Windows and Mac as well.
+You should have either Oracle's JDK 8 or OpenJDK 8 installed. This project is mostly tested on Linux, but should also work on Windows and Mac as well.
 
 ### Installing
 
