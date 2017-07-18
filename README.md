@@ -37,6 +37,10 @@ You should have either Oracle's JDK 8 or OpenJDK 8 installed. This project is mo
 
 Simply copy the jar file somewhere, and run the command above.
 
+### Further Information
+
+More in depth information will eventually be made available in the [Wiki](https://github.com/mikeperalta1/loki-render/wiki) section.
+
 ### And coding style tests
 
 TO-DO
@@ -47,7 +51,9 @@ TO-DO
 
 ## Contributing
 
-Please feel free to send bug fixes and improvements for consideration. I may not be able to put much time into this project, so it needs support from the community.
+* Please feel free to send bug fixes and improvements for consideration. I may not be able to put much time into this project, so it needs support from the community.
+* If you can't contribute code, but would still like to help, please consider contributing to the [Wiki](https://github.com/mikeperalta1/loki-render/wiki).
+I would like the goal of the Wiki to become an easy guide even for those who are not technically inclined.
 
 ## Versioning
 
@@ -66,7 +72,7 @@ This project is licensed under the [GPL v3 License](https://www.gnu.org/licenses
 
 ## Acknowledgments
 
-* Huge thanks to Daniel Petersen for creating this wonderful and fun project in the first place, creating the initial wiki with useful starter information, and giving his blessing for this fix+fork to happen
+* Huge thanks to Daniel Petersen for creating this wonderful and fun project in the first place, creating his initial wiki with useful starter information, and giving his blessing for this fix+fork to happen
 * The wonderful people working on Blender
 * [PurpleBooth](https://gist.github.com/PurpleBooth/) for this README [template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 * My dog
