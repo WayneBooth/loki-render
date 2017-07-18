@@ -69,11 +69,11 @@ See also the list of [contributors](https://github.com/mikeperalta1/loki-render/
 
 ## License
 
-This project is licensed under the GPL v3 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the [GPL v3 License](https://www.gnu.org/licenses/gpl-3.0.en.html) - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Huge thanks to Daniel Petersen for creating this wonderful and fun project in the first place, and giving his blessing for this fix+fork to happen
+* Huge thanks to Daniel Petersen for creating this wonderful and fun project in the first place, creating the initial wiki with useful starter information, and giving his blessing for this fix+fork to happen
 * The wonderful people working on Blender
 * [PurpleBooth](https://gist.github.com/PurpleBooth/) for this README [template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 * My dog
