@@ -24,6 +24,8 @@ import net.whn.loki.common.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.logging.Logger;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import net.whn.loki.IO.GruntIOHelper;
@@ -80,7 +82,27 @@ public class CLHelper implements ICommon {
      * @param stdout
      * @return full path
      */
-    public static String blender_getRenderedFileName(String stdout) {
+    public static String blender_getRenderedFileName(String stdout) throws IOException
+    {
+        //  New method, to handle single quotes around the filename
+        String filename;
+        Pattern p = Pattern.compile(".*Saved:\\s*'([^\\n]+)'\\s+Time:.*");
+        Matcher m = p.matcher(stdout);
+        if(m.find()){
+            
+            //    Oh JOY
+            filename=m.group(m.groupCount());
+            return filename;
+        }
+        
+        //
+        System.out.println("About to fail because we couldn't find the output file");
+        System.out.println(stdout);
+        
+        //  Otherwise, throw exception
+        throw new IOException("Whoops! Filename catcher is broken again!");
+        
+        /*
         //example "Saved: /home/daniel/.loki/tmp/0001.png Time: 00:00.31"
         String[] tokens = stdout.split("\\n");
         for (int i = 0; i < tokens.length; i++) {
@@ -96,6 +118,7 @@ public class CLHelper implements ICommon {
             }
         }
         return null;
+        */
     }
 
     public static String extractBlenderRenderTime(String stdout) {
