@@ -46,16 +46,6 @@ TO-DO
 
 Please feel free to send bug fixes and improvements for consideration. I may not be able to put much time into this project, so it needs support from the community.
 
-## Wish LIst
-
-I have the following ideas for future upgrades
-
-* Make command line arguments more specific/verbose
-* New Mode: "Client", which can connect to a "Master" and add jobs. Authentication would be a good idea at this point
-* HTTP/Web interface for "Master" mode GUI. I am personally much more comfortable coding GUI's in HTML/CSS/JS/JQuery than Java
-* After "Client' mode has been added, and "Master" mode has a web based GUI, the "Master" mode should be able to run without Java's GUI, so it can be placed on a headless server as well
-* Hmmm maybe I should somehow move this into the support ticket area, lol
-
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/mikeperalta1/loki-render/tags). 
