@@ -95,10 +95,6 @@ public class CLHelper implements ICommon {
             return filename;
         }
         
-        //
-        System.out.println("About to fail because we couldn't find the output file");
-        System.out.println(stdout);
-        
         //  Otherwise, throw exception
         throw new IOException("Whoops! Filename catcher is broken again!");
         
