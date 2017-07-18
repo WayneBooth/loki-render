@@ -7,7 +7,7 @@ This is a fork of the original project by Daniel Petersen over on [Sourceforge](
 ## Getting Started
 
 First make sure you have java installed on your computer. I test with OpenJDK 8, but Oracle's JDK 8 should also work.
-Then, of course, you will want to grab the latest JAR file from the [release page](https://github.com/mikeperalta1/loki-render/releases)
+Then, of course, you will want to grab the latest JAR file from the [release page](https://github.com/mikeperalta1/loki-render/releases).
 
 After this, Loki Render can be launched with a simple command:
 
