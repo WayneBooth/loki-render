@@ -11,8 +11,7 @@ You should have either Oracle's JDK 8 or OpenJDK 8 installed. This project is mo
 ## Getting Started
 
 * First make sure you have java installed on your computer. I test with OpenJDK 8, but Oracle's JDK 8 should also work.
-* Then, of course, you will want to grab the latest JAR file from the [release page](https://github.com/mikeperalta1/loki-render/releases).
-* After this, copy the JAR file somewhere
+* Then, of course, you will want to grab the latest JAR file from the [release page](https://github.com/mikeperalta1/loki-render/releases), and save it somewhere
 * You can then launch Loki Render with a simple command:
 
 ```
