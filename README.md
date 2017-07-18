@@ -6,7 +6,7 @@ This is a fork of the original project by Daniel Petersen over on [Sourceforge](
 
 ## Getting Started
 
-First make sure you have java installed on your computer. The code targets Oracle's JDK 8 or OpenJDK 8. After this, Loki Render can be launched with a simple command:
+First make sure you have java installed on your computer. I test with OpenJDK 8, but Oracle's JDK 8 should also work. After this, Loki Render can be launched with a simple command:
 
 ```
 java -jar LokiRender-<version>.jar [<BlenderExe>] [MasterIP]
@@ -14,8 +14,8 @@ java -jar LokiRender-<version>.jar [<BlenderExe>] [MasterIP]
 
 * Replace <version> to match the jar file you have
 * Add the full path to the Loki Render jar file if you wish to run the command outside the directory where the jar is stored
-* Use [<BlenderExe>] by adding the path to a Blender executable, to start Loki Render in grunt mode without the GUI (great for headless rendering)
-* Use [<MasterIP>] to specify the IP address of a server running Loki Render in Master mode, otherwise Loki Render will attempt to auto detect
+* Use [\<BlenderExe\>] by adding the path to a Blender executable, to start Loki Render in grunt mode without the GUI (great for headless rendering)
+* Use [\<MasterIP\>] to specify the IP address of a server running Loki Render in Master mode, otherwise Loki Render will attempt to auto detect
 
 Examples:
 ```
