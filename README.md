@@ -4,6 +4,10 @@ Loki Render allows you to create your own render farm, serving Blender render jo
 
 This is a fork of the original project by Daniel Petersen over on [Sourceforge](https://sourceforge.net/projects/loki-render/) 
 
+## Prerequisites
+
+You should have either Oracle's JDK 8 or OpenJDK 8 installed. This project is mostly tested on Linux, but should also work on Windows and Mac as well.
+
 ## Getting Started
 
 First make sure you have java installed on your computer. I test with OpenJDK 8, but Oracle's JDK 8 should also work.
@@ -28,10 +32,6 @@ java -jar LokiRender-071-1.jar 192.168.17.45
 java -jar LokiRender-071-1.jar /path/to/blender 192.168.17.45
 java -jar /path/to/jar/folder/LokiRender-071-1.jar /path/to/blender 192.168.17.45
 ```
-
-### Prerequisites
-
-You should have either Oracle's JDK 8 or OpenJDK 8 installed. This project is mostly tested on Linux, but should also work on Windows and Mac as well.
 
 ### Installing
 
