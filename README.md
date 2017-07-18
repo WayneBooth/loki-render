@@ -33,17 +33,9 @@ java -jar LokiRender-071-1.jar /path/to/blender 192.168.17.45
 java -jar /path/to/jar/folder/LokiRender-071-1.jar /path/to/blender 192.168.17.45
 ```
 
-### Installing
-
-Simply copy the jar file somewhere, and run the command above.
-
-### Further Information
+## Further Information
 
 More in depth information will eventually be made available in the [Wiki](https://github.com/mikeperalta1/loki-render/wiki) section.
-
-### And coding style tests
-
-TO-DO
 
 ## Built With
 
@@ -54,6 +46,10 @@ TO-DO
 * Please feel free to send bug fixes and improvements for consideration. I may not be able to put much time into this project, so it needs support from the community.
 * If you can't contribute code, but would still like to help, please consider contributing to the [Wiki](https://github.com/mikeperalta1/loki-render/wiki).
 I would like the goal of the Wiki to become an easy guide even for those who are not technically inclined.
+
+###	Code Styling
+
+TO-DO
 
 ## Versioning
 
