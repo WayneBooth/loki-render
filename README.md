@@ -1,12 +1,12 @@
 # Loki Render
 
-Loki Render allows you to create your own render farm, serving Blender render jobs to a group of computers. Loki is easy to setup and runs on Linux, Windows or Mac, making it a quick and flexible distributed network rendering solution!
+Loki Render allows you to create your own render farm, serving Blender render jobs to a group of computers. Loki is easy to setup and runs on Linux, Windows, or Mac, making it a quick and flexible distributed network rendering solution!
 
 This is a fork of the original project by Daniel Petersen over on [Sourceforge](https://sourceforge.net/projects/loki-render/) 
 
 ## Getting Started
 
-Loki Render can be launched with a simple command:
+First make sure you have java installed on your computer. The code targets Oracle's JDK 8 or OpenJDK 8. After this, Loki Render can be launched with a simple command:
 
 ```
 java -jar LokiRender-<version>.jar [<BlenderExe>] [MasterIP]
