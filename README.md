@@ -4,6 +4,18 @@ Loki Render allows you to create your own render farm, serving Blender render jo
 
 This is a fork of the original project by Daniel Petersen over on [Sourceforge](https://sourceforge.net/projects/loki-render/) 
 
+##	Workflow
+
+A typical workflow to start utilizing Loki Render, is something like:
+1. Pick a machine to be the master, and start Loki Render in "Master" mode (or in "Master+Grunt" mode)
+2. Start Loki Render in Grunt mode on some other machines
+3. Configure the Master
+4. Configure the Grunts
+	* If you're on a simple home LAN, the Grunts should automatically detect the Master
+	* Otherwise, you'll want to configure the Master IP address in their settings
+5. Add some jobs to the Master
+6. Start rendering, on the Master
+
 ## Prerequisites
 
 You should have either Oracle's JDK 8 or OpenJDK 8 installed. This project is mostly tested on Linux, but should also work on Windows and Mac as well.
