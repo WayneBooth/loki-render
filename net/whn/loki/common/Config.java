@@ -3,6 +3,9 @@
  *Version 0.7.2
  *Copyright (C) 2014 Daniel Petersen
  *Created on Sep 3, 2009
+ * 
+ * July 2017: New fork contributed and maintained by Mike Peralta
+ * 
  */
 /**
  *This program is free software: you can redistribute it and/or modify
